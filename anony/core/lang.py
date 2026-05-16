@@ -19,7 +19,7 @@ lang_codes = {
     "fr": "Français",
     "hi": "हिन्दी",
     "ja": "日本語",
-    "my": "မြန်မာဘာသာ",
+    "aze": "**Azərbaycanca**",
     "pa": "ਪੰਜਾਬੀ",
     "pt": "Português",
     "ru": "Русский",
