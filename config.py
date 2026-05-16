@@ -31,7 +31,7 @@ class Config:
         self.THUMB_GEN: bool = getenv("THUMB_GEN", "True").lower() == "true"
         self.VIDEO_PLAY: bool = getenv("VIDEO_PLAY", "True").lower() == "true"
 
-        self.LANG_CODE = getenv("LANG_CODE", "aze")
+        self.LANG_CODE = getenv("LANG_CODE", "az")
 
         self.COOKIES_URL = [
             url for url in getenv("COOKIES_URL", "").split(" ")
