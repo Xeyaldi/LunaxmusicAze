@@ -105,7 +105,7 @@
     "queue_fetching": "Növbə gətirilir...",
     "restarting": "Yenidən başladılır...",
     "restarted": "Yenidən başlatma davam edir. Narahat olmayın, cəmi bir neçə saniyə çəkəcək... bəlkə də.",
-    "start_pm": "Salam {0},\nMən {1}!\nMöhtəşəm və çoxfunksiyalı musiqi botuyam.\n\n<b><i>Ətraflı məlumat üçün Kömək düyməsinə kliklə.</i></b>",
+    "start_pm": "Salam {0},\nMən {1} !\n\nMöhtəşəm və çoxfunksiyalı musiqi botuyam.\n\n<i>Ətraflı məlumat üçün Kömək düyməsinə kliklə.</i>",
     "start_gp": "Salam,\nMən {0}\n\n<u><b>Möhtəşəm və çoxfunksiyalı musiqi botuyam.</b></u>",
     "start_settings": "<u><b>{0} tənzimləmələri</b></u>\n\nCari chatın tənzimləmələrini dəyişmək üçün aşağıdakı düymələrə klikləyin.",
     "stats_fetching": "Statistika gətirilir...",
