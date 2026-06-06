@@ -23,7 +23,7 @@ class Config:
         self.SESSION3 = getenv("SESSION3", None)
 
         self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ht_bots")
-        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me//ht_bots_chat")
+        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ht_bots")
 
         self.AUTO_LEAVE: bool = getenv("AUTO_LEAVE", "False").lower() == "true"
         self.AUTO_END: bool = getenv("AUTO_END", "False").lower() == "true"
@@ -37,9 +37,9 @@ class Config:
             url for url in getenv("COOKIES_URL", "").split(" ")
             if url and "batbin.me" in url
         ]
-        self.DEFAULT_THUMB = getenv("DEFAULT_THUMB", "https://ibb.co/vCXRvc93")
-        self.PING_IMG = getenv("PING_IMG", "https://files.catbox.moe/haagg2.png")
-        self.START_IMG = getenv("START_IMG", "https://ibb.co/vCXRvc93")
+        self.DEFAULT_THUMB = getenv("DEFAULT_THUMB", "https://ibb.co/rjsDfD3")
+        self.PING_IMG = getenv("PING_IMG", "https://ibb.co/j9FQXPzR")
+        self.START_IMG = getenv("START_IMG", "https://ibb.co/vvhqGxcc")
 
     def check(self):
         missing = [
