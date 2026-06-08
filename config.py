@@ -1,4 +1,4 @@
-from os import getenv
+ölfrom os import getenv
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -37,9 +37,9 @@ class Config:
             url for url in getenv("COOKIES_URL", "").split(" ")
             if url and "batbin.me" in url
         ]
-        self.DEFAULT_THUMB = getenv("DEFAULT_THUMB", "https://ibb.co/rjsDfD3")
-        self.PING_IMG = getenv("PING_IMG", "https://ibb.co/j9FQXPzR")
-        self.START_IMG = getenv("START_IMG", "https://ibb.co/vvhqGxcc")
+        self.DEFAULT_THUMB = getenv("DEFAULT_THUMB", "https://ibb.co/5gMHRDc8")
+        self.PING_IMG = getenv("PING_IMG", "https://ibb.co/5gMHRDc8")
+        self.START_IMG = getenv("START_IMG", "https://ibb.co/gLy9zyf3")
 
     def check(self):
         missing = [
