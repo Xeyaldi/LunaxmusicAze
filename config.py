@@ -38,7 +38,7 @@ class Config:
             if url and "batbin.me" in url
         ]
         self.DEFAULT_THUMB = getenv("DEFAULT_THUMB", "https://ibb.co/fzN246fJ")
-        self.PING_IMG = getenv("PING_IMG", "https://ibb.co/Dfvxd9jn")
+        self.PING_IMG = getenv("PING_IMG", "https://ibb.co/zhSgPrC4")
         self.START_IMG = getenv("START_IMG", "https://ibb.co/zhSgPrC4")
 
     def check(self):
